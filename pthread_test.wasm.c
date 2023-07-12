@@ -1305,7 +1305,7 @@ static void init_instance_import(w2c_pthread__test* instance, struct w2c_env* w2
 }
 
 const u64 wasm2c_pthread__test_min_env_memory = 2;
-const u64 wasm2c_pthread__test_max_env_memory = 1024;
+const u64 wasm2c_pthread__test_max_env_memory = 32768;
 const u8 wasm2c_pthread__test_is64_env_memory = 0;
 
 void wasm2c_pthread__test_instantiate(w2c_pthread__test* instance, struct w2c_env* w2c_env_instance, struct w2c_wasi* w2c_wasi_instance, struct w2c_wasi__snapshot__preview1* w2c_wasi__snapshot__preview1_instance) {
